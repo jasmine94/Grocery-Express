@@ -11,7 +11,7 @@
 	    </div>
 	    <div class="navbar-collapse collapse navbar-right">
 	        <ul class="nav navbar-nav">
-	            <li class="active"><a href="index.html"><i class="glyphicon glyphicon-home"></i>HOME</a></li>
+	            <li class="active"><a href="index.php"><i class="glyphicon glyphicon-home"></i>HOME</a></li>
 				
 	            <li class="dropdown">
 	              	<a href="#" class="dropdown-toggle" data-toggle="dropdown">CATEGORIES<b class="caret"></b></a>
@@ -20,11 +20,11 @@
 	                	<li><a href="toiletries.html">Personal Care</a></li>
 	              	</ul>
 	            </li>
-	            <li><a href="cart.html"><i class="glyphicon glyphicon-shopping-cart"></i>CART</a></li>
+	            <li><a href="cart.php"><i class="glyphicon glyphicon-shopping-cart"></i>CART</a></li>
 	            <li class="dropdown">
-	            <li><a href="co.html">CONTACT US</a></li>
+	            <li><a href="contact.php">CONTACT US</a></li>
 	            <li class="dropdown">
-	            <li><a href="about.html"><i class="glyphicon glyphicon-info-sign"></i>ABOUT US</a></li>
+	            <li><a href="about.php"><i class="glyphicon glyphicon-info-sign"></i>ABOUT US</a></li>
 	        </ul>
 	    </div><!--/.nav-collapse -->
 	</div>

@@ -52,14 +52,14 @@
  			<div class="row centered">
 			
  				<div class="col-md-4">
-				<a class="btn btn-theme" href="#" role="button">
+				<a class="btn btn-theme" href="food.html" role="button">
  					<i class="fa fa-heart-o"></i>
  					<h4>Food</h4>
 				</a>
  				</div>
 				
  				<div class="col-md-4">
-				<a class="btn btn-theme" href="#" role="button">
+				<a class="btn btn-theme" href="toiletries.html" role="button">
  					<i class="fa fa-flask"></i>
  					<h4>Personal Care</h4>
  					</a>
@@ -73,7 +73,7 @@
 	 FOOTER
 	 ***************************************************************************************************************** -->
 	 <?php include('footer.php');?>
-	 
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
 
