@@ -16,8 +16,8 @@
 	            <li class="dropdown">
 	              	<a href="#" class="dropdown-toggle" data-toggle="dropdown">CATEGORIES<b class="caret"></b></a>
 				  	<ul class="dropdown-menu">
-	                	<li><a href="food.html">Foods</a></li>
-	                	<li><a href="toiletries.html">Personal Care</a></li>
+	                	<li><a href="food.php">Foods</a></li>
+	                	<li><a href="toiletries.php">Personal Care</a></li>
 	              	</ul>
 	            </li>
 	            <li><a href="cart.php"><i class="glyphicon glyphicon-shopping-cart"></i>CART</a></li>
