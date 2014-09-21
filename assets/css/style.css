@@ -181,7 +181,6 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
@@ -402,14 +401,14 @@ csmall2 {
 
 /* Contact Page */
 #contactwrap {
-	background: url(../img/contact.jpg) no-repeat center top;
-	margin-top: -60px;
+	/*background: url(../img/contact.jpg) no-repeat center top;*/
+	/*margin-top: -60px;*/
 	padding-top:0px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 400px;
-	width: 100%;
+	/*min-height: 400px;
+	width: 100%;*/
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
