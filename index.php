@@ -42,8 +42,12 @@
 					</ul>
 				</div> <!-- /container -->
 			</div>
+					<div class = "col-md-4" >
+			<button id = "loginbtn" type = "button" class = "btn btn-warning pull-right">Log In</button>
+		</div>
 		</div><!-- /headerwrap -->
-	
+		
+
 <!-- *****************************************************************************************************************
 	CATEGORIES
 	 ***************************************************************************************************************** -->
@@ -52,14 +56,14 @@
  			<div class="row centered">
 			
  				<div class="col-md-4">
-				<a class="btn btn-theme" href="food.html" role="button">
+				<a class="btn btn-theme" href="food.php" role="button">
  					<i class="fa fa-heart-o"></i>
  					<h4>Food</h4>
 				</a>
  				</div>
 				
  				<div class="col-md-4">
-				<a class="btn btn-theme" href="toiletries.html" role="button">
+				<a class="btn btn-theme" href="toiletries.php" role="button">
  					<i class="fa fa-flask"></i>
  					<h4>Personal Care</h4>
  					</a>

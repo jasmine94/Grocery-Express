@@ -1,3 +1,7 @@
+<?php 
+	/*$connect = mysql_connect("localhost") or die(mysql_error($connect));*/
+	// mysql_select_db("groceryexpress",$connect);
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,31 +59,30 @@
 	<!-- *****************************************************************************************************************
 	 CONTACT FORMS
 	 ***************************************************************************************************************** -->
-
+	<?php
+		include("contact2.php");
+	?>
 	 <div class="container mtb">
 	 	<div class="row">
 	 		<div class="col-lg-8">
 	 			<h4>Just Get In Touch!</h4>
 	 			<div class="hline"></div>
 		 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-		 			<form role="form">
-					  <div class="form-group">
-					    <label for="InputName1">Your Name</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1">
-					  </div>
-					  <div class="form-group">
-					    <label for="InputEmail1">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1">
-					  </div>
-					  <div class="form-group">
-					    <label for="InputSubject1">Subject</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1">
-					  </div>
-					  <div class="form-group">
-					  	<label for="message1">Message</label>
-					  	<textarea class="form-control" id="message1" rows="3"></textarea>
-					  </div>
-					  <button type="submit" class="btn btn-theme">Submit</button>
+		 			<form role = "form" enctype="multipart/form-data" id = "form" method = "post">
+						
+						    <label for="name">Your Name</label>
+						    <input type = "text" name="name" class="form-control" id="name">
+				
+						    <label for="emailadd">Email address</label>
+						    <input type = "email" name="email" class="form-control" id="emailadd">
+
+						    <label for="subject">Subject</label>
+						    <input type = "text" name="subj" class="form-control" id="subject">
+
+						  	<label for="message1">Message</label>
+						  	<textarea name = "message1" class="form-control" id="message1" rows="3"></textarea>
+
+						  <button name = "submit" type="submit" class="btn btn-theme">Submit</button>
 					</form>
 			</div><!--/col-lg-8 -->
 	 		
