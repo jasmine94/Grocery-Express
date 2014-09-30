@@ -18,7 +18,7 @@
 	    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/bjqs.css">
 		 <link rel="stylesheet" href="assets/css/demo.css">
-
+        <link rel="stylesheet" href="assets/css/custom.css">
 	    <!-- Just for debugging purposes. Don't actually copy this line! -->
 	    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -42,9 +42,7 @@
 					</ul>
 				</div> <!-- /container -->
 			</div>
-					<div class = "col-md-4" >
-			<button id = "loginbtn" type = "button" class = "btn btn-warning pull-right">Log In</button>
-		</div>
+			
 		</div><!-- /headerwrap -->
 		
 

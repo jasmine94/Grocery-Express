@@ -10,7 +10,16 @@
 	        <a class="navbar-brand" href="index.php">GROCERY EXPRESS</a>
 	    </div>
 	    <div class="navbar-collapse collapse navbar-right">
-	        <ul class="nav navbar-nav">
+	        <ul id ="main_sl"class="nav navbar-nav">
+                <li>
+                    <!--<button id = "loginbtn" type = "button" class = "btn btn-warning pull-right">Log In</button>-->
+                    <button id = "loginbtn" type = "button" class = "btn btn-warning pull-right" data-backdrop="static" data-keyboard="false" data-target = "#loginmodal" data-toggle = "modal">Log In</button>
+		        </li>
+                <li>
+                    <!--<button id = "loginbtn" type = "button" class = "btn btn-warning pull-right">Log In</button>-->
+                    <button id = "loginbtn" type = "button" class = "btn btn-warning pull-right" data-backdrop="static" data-keyboard="false" data-target = "#loginmodal" data-toggle = "modal">Sign Up</button>
+		        </li>
+                <!--
 	            <li class="active"><a href="index.php"><i class="glyphicon glyphicon-home"></i>HOME</a></li>
 				
 	            <li class="dropdown">
@@ -25,7 +34,9 @@
 	            <li><a href="contact.php">CONTACT US</a></li>
 	            <li class="dropdown">
 	            <li><a href="about.php"><i class="glyphicon glyphicon-info-sign"></i>ABOUT US</a></li>
+                -->
 	        </ul>
 	    </div><!--/.nav-collapse -->
 	</div>
 </div>
+<?php include('login.php');?>
