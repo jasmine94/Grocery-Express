@@ -1,11 +1,11 @@
-<div id = "loginmodal" class = "modal fade" tabindex = "-1" role = "dialog" aria-labelledby = "myModalLabel" aria-hidden = "true" style = "display:none;">
+<div id = "register" class = "modal fade" tabindex = "-1" role = "dialog" style = "display:none;" data-backdrop="static" data-keyboard="false">
 	<div class = "modal-dialog">
 		<div class = "modal-content">
 			<div id="modal-header">
-				<button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">
+				<button type = "button" class = "close" data-dismiss = "modal">
 					&times;
 				</button>						
-				<h4 class = "modal-title" id = "myModalLabel">Privacy Policy</h4>
+				<h4 class = "modal-title" id = "myModalLabel">Register</h4>
 			</div>		
 			<div id = "modal-body">
                 <form role = "form" enctype="multipart/form-data" id = "form" method = "post">

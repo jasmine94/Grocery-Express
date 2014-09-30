@@ -33,15 +33,18 @@
 	    <?php include('navigationbar.php');?>
 	
  		<div id="headerwrap">
-			<div id="container">
+			
+                <img src="assets/img/slider3.jpg" class="img-responsive">
+                <!--
 				<div id="banner-slide">
 					<ul class="bjqs">
 						<li><img src="assets/img/post02.jpg" title="NEW PRODUCT"></li>
 						<li><img src="assets/img/agency1.png" title="PROMO 1"></li>
 						<li><img src="assets/img/post01.jpg" title="PROMO 2"></li>
 					</ul>
-				</div> <!-- /container -->
-			</div>
+				</div> 
+                -->
+			<!-- /container -->
 			
 		</div><!-- /headerwrap -->
 		
@@ -53,7 +56,7 @@
 	 	<div class="container">
  			<div class="row centered">
 			
- 				<div class="col-md-4">
+ 				<div class="col-md-4 col-md-offset-2">
 				<a class="btn btn-theme" href="food.php" role="button">
  					<i class="fa fa-heart-o"></i>
  					<h4>Food</h4>

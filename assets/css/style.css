@@ -362,7 +362,7 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: #384452;
+	background-color: #B4E939;
 	border-color: transparent;
 }
 
@@ -687,8 +687,8 @@ a:focus {
 
 #headerwrap {
 	background-color: #00b3fe;
-	min-height: 550px;
-	padding-top: 100px;
+	min-height: 350px;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	text-align: center;
 }
@@ -700,7 +700,7 @@ a:focus {
 
 #headerwrap h1 {
 	color: white;
-	margin-bottom: 25px;
+	/*margin-bottom: 25px;*/
 }
 
 #headerwrap .img-responsive {
@@ -817,20 +817,20 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: #384452;
+	background: #E7B12A;
 }
 
 #footerwrap p {
-	color: #bfc9d3;
+	color: white;
 }
 
 #footerwrap h4 {
 	color: white;
-}
+}   
 
 #footerwrap i {
 	font-size: 30px;
-	color: #bfc9d3;
+	color: white;
 	padding-right: 25px;
 }
 
